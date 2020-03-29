@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand mb-0 h1" href="scoreboard.html">View Highscores</a>
+
+        <div class="collapse navbar-collapse ml-auto" id="navLinks">
+            <div class="navbar-nav ml-auto" style="color: white;">
+                <div>Time: <span id="time">00</span></div>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="quiz invitation">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Coding Quiz Challenge</h1>
+            <p class="lead">Try to answer the following code-related questions within the time limit.
+                Keep in mind that incorrect answer will penalize your score/time by ten seconds!</p>
+            <a class="btn btn-primary btn-lg" id="startquiz" href="#" role="button">Start Quiz</a>
+        </div>
+    </div>
+    </div>
+
+    <div class="container" id="quiz-questionary" hidden>
+        <div class="row">
+            <div class="col-9">
+                <h2 id="question">""</h2>
+                <div class="btn-group-vertical">
+                    <button type="button" class="btn btn-primary btn-sm" id="btn1">""</button>
+                    <button type="button" class="btn btn-primary btn-sm" id="btn2">""</button>
+                    <button type="button" class="btn btn-primary btn-sm" id="btn3">""</button>
+                    <button type="button" class="btn btn-primary btn-sm" id="btn4">""</button>
+                </div>
+            </div>
+        </div>
+        <hr id="line-delimeter" hidden>
+    </div>
+
+    <!-- </div> -->
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

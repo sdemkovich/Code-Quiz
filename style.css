@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+  }
+
+.btn-primary {
+    margin-bottom: 5px;
+}
+
+#quiz-questionary {
+margin-left: 100px;
+margin-right: 100px;
+text-align: left;
+}
